@@ -17,8 +17,11 @@ a {
 }
 
 .top {
+    overflow: hidden;
     position: relative;
     background: rgb(225, 255, 143);
+    width: 1440px;
+    height: 800px;
 }
 
 .top__star-2{
@@ -31,6 +34,54 @@ a {
     position: absolute;
     left: 156px;
     top: 69px;
+}
+
+.top__star-4{
+    position: absolute;
+    left: 1013px;
+    top: 568px;
+}
+
+.top__star-5{
+    position: absolute;
+    left: 948px;
+    top: 538px;
+}
+
+.top__BigStar{
+    position: absolute;
+    left: 1021px;
+    top: -260.29px;
+}
+
+.top__ray-1{
+    position: absolute;
+    left: 854px;
+    top: -10px;
+}
+
+.top__ray-2{
+    position: absolute;
+    left: 1067px;
+    top: 254px;
+}
+
+.top__ray-3{
+    position: absolute;
+    left: 1225px;
+    top: 379px;
+}
+
+.top__ray-4{
+    position: absolute;
+    left: 1247px;
+    top: 468px;
+}
+
+.top__ray-5{
+    position: absolute;
+    left: 1345px;
+    top: 663px;
 }
 
 .top-text{
@@ -90,4 +141,37 @@ a {
 
 .top-text__text-started{
     font-weight: bold;
+}
+
+.line{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 51px;
+    width: 2988px;
+    height: 90px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    background: rgb(188, 236, 48);
+    position: absolute;
+    z-index: 2;
+    left: -30px;
+    top: 710px;
+}
+
+.line__heading{
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 110%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.line__heading_indent{
+    padding-left: 49px;
 }
