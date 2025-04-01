@@ -204,6 +204,20 @@ a {
     padding-bottom: 24px;
 }
 
+.Games__decoration1{
+    position: absolute;
+    left: 45.18px;
+    top: 822px;
+    z-index: -1;
+}
+
+.Games__decoration2{
+    position: absolute;
+    left: 27.97px;
+    top: 770px;
+    z-index: -1;
+}
+
 .Games__description{
     color: rgb(255, 255, 255);
     font-family: Montserrat;
@@ -217,13 +231,14 @@ a {
     padding-top: 72px;
     padding-bottom: 50px;
     font-size: 0;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(378px, 1fr));
     gap: 32px;
 }
 
 .card__info{
     width: 378px;
+    height: 100%;
     box-sizing: border-box;
     border-radius: 30px;
     box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);    background: rgb(255, 255, 255);
@@ -247,6 +262,7 @@ a {
     font-weight: 500;
     line-height: 110%;
     text-align: left;
+    width: 80px;
 }
 
 .card__heading{
@@ -262,5 +278,6 @@ a {
 .card__link{
     display: inline-block;
     width: 378px;
+    height: 100%;
     color: inherit;
 }
