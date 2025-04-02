@@ -134,6 +134,7 @@ a {
     border: 1px solid rgb(0, 0, 0);
     border-radius: 60px;
     background: rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 .top-text__text-go{
@@ -280,4 +281,9 @@ a {
     width: 378px;
     height: 100%;
     color: inherit;
+}
+
+.card__game--hover:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
 }
