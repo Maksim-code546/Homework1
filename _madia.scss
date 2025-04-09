@@ -1,0 +1,192 @@
+@media (max-width: 376px){
+    .top-text{
+        padding-top: 147px;
+        padding-bottom: 182px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+        &__heading{
+            color: rgb(32, 32, 39);
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+            text-align: center;
+        }
+
+        &__text{
+            color: rgb(32, 32, 39);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+            max-width: 296px;
+            padding-bottom: 36px;
+        }
+
+        &__btn{
+            font-size: 16px;
+            padding: 16px 103.5px;
+        }
+
+        &__btn_hover:hover{
+            box-sizing: border-box;
+            border: 1px solid rgb(32, 32, 39);
+            border-radius: 60px;
+            background: rgb(32, 32, 39);
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 141.69%;
+            text-align: center;
+        }
+    }
+
+    .top{
+
+        &__BigStar{
+            width: 223.52px;
+            left: 232.81px;
+            top: -84.43px;
+        }
+
+        &__star-2{
+            width: 35px;
+            top: 97px;
+            left: 38px;
+        }
+
+        &__star-3{
+            width: 21px;
+            top: 64px;
+            left: 92px;
+        }
+
+        &__star-4{
+            left: 304px;
+            top: 580px;
+            width: 39px;
+            height: 41px;
+        }
+
+        &__star-5{
+            left: 273px;
+            top: 557px;
+            width: 18px;
+        }
+    }
+
+    .line{
+        top: 651px;
+        width: 1717.4px;
+        height: 51.34px;
+        flex-wrap: nowrap;
+
+        &__heading{
+            font-size: 16px;
+        }
+
+        &__Star{
+            width: 19.34px;
+            height: 19.34px;
+            padding: 16px 27px;
+        }
+    }
+
+    .center{
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+.Games{
+    display: none;
+}
+
+.mini-game{
+    overflow: hidden;
+    padding-bottom: 48.88px;
+
+    &__heading{
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        text-align: left;
+    }
+}
+
+.game-card{
+
+    &__name{
+        padding: 29px 29px 48px 29px;
+        max-width: 285px;
+    }
+
+    &__heading{
+        color: rgb(32, 32, 39);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        text-align: left;
+        padding-bottom: 16px;
+    }
+
+    &__text{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        padding-bottom: 48px;
+    }
+
+    &__btn{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 141.69%;
+        text-align: center;
+        border-radius: 60px;
+        background: rgb(32, 32, 39);
+        padding: 16px 110.5px;
+    }
+
+    &__info{
+        flex-direction: column-reverse;
+        border-radius: 30px;
+    }
+
+    &__info_flex{
+        flex-direction: column;
+    }
+
+    &__img{
+        height: 285px;
+    }
+
+    &__btn_hover:hover{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 141.69%;
+        text-align: center;
+        padding: 16px 110.5px;
+        background: rgb(32, 32, 39);
+        transition: none;
+    }
+}
+
+.footer{
+    height: 100px;
+
+    &__text{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+    
+}
