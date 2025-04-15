@@ -56,9 +56,16 @@ const user = {
 const userName = prompt("Ваше имя?")
 alert(`Привет: ${userName}`);
 
-//conditional branching//
+//conditional branching
 
 //task1
 let password = 'пароль';
 
-let enterPassword = prompt('введите пароль')
+let enterPassword = prompt('введите пароль');
+
+if (password === 'пароль'){
+    alert ("Пароль введен верно");
+}
+else {
+alert("Пароль введен неправильно");
+}
