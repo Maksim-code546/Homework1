@@ -69,3 +69,23 @@ if (password === 'пароль'){
 else {
 alert("Пароль введен неправильно");
 }
+
+//task2
+let number = 2;
+
+if (number > 0 &&  number < 10) {
+    console.log("Верно");
+}
+else{
+    console.log("Не верно");
+}
+
+//task3
+let e = 120;
+let f = 80;
+if (d > 100 || e > 100) {
+    console.log('Верно');
+}
+else {
+    console.log('Не верно');
+}
