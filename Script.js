@@ -89,3 +89,9 @@ if (d > 100 || e > 100) {
 else {
     console.log('Не верно');
 }
+
+//task4
+let number1 = '2';
+let number2 = '3';
+
+alert (Number(number1) + Number(number2));
