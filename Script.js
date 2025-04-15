@@ -55,3 +55,10 @@ const user = {
 //Task10
 const userName = prompt("Ваше имя?")
 alert(`Привет: ${userName}`);
+
+//conditional branching//
+
+//task1
+let password = 'пароль';
+
+let enterPassword = prompt('введите пароль')
