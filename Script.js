@@ -1,8 +1,11 @@
-//task3
+//task4
 
-let i = 7;
-while (i <= 22) {
-    console.log(i);
-    i++;
-}
-
+const obj = {
+    "Коля" : '200',
+    "Вася" : '300',
+    "Петя" : '400'
+    };
+    
+    for (const name in obj) {
+        console.log(`${name} - Зарплата ${obj[name]} долларов`);
+    }
