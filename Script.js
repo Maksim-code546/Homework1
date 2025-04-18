@@ -1,6 +1,7 @@
-//task2 
-let i = 1;
-while (i <= 5) {
+//task3
+
+let i = 7;
+while (i <= 22) {
     console.log(i);
     i++;
 }
