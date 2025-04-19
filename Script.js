@@ -1,12 +1,11 @@
-//task5
+//task6
 
-let n = 1000;
-let num = 0;
+const firstFriday = 1;
+const totalMonth = 31;
 
-while (n >= 50) {
-    n = n / 2;
-    num++;
+for (let day = 1; day <= totalMonth; day++) {
+    if ((day - firstFriday) % 7 === 0) {
+        console.log(`Сегодня пятница, ${day} -е число. Необходимо подготовить отчет.`);
+    }
+    
 }
-
-console.log("Итоговое число:", n);
-console.log("Количество итераций:", num);
