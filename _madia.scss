@@ -1,4 +1,4 @@
-@media (max-width: 376px){
+@media (max-width: 451px){
     .top-text{
         padding-top: 147px;
         padding-bottom: 182px;
@@ -8,17 +8,14 @@
         align-items: center;
 
         &__heading{
-            color: rgb(32, 32, 39);
             font-size: 40px;
-            font-weight: 700;
             line-height: 49px;
             text-align: center;
+            width: 96%;
         }
 
         &__text{
-            color: rgb(32, 32, 39);
             font-size: 16px;
-            font-weight: 400;
             line-height: 20px;
             text-align: center;
             max-width: 296px;
@@ -47,31 +44,31 @@
 
         &__BigStar{
             width: 223.52px;
-            left: 232.81px;
+            left: 63vw;
             top: -84.43px;
         }
 
         &__star-2{
             width: 35px;
             top: 97px;
-            left: 38px;
+            left: 10vw;
         }
 
         &__star-3{
             width: 21px;
             top: 64px;
-            left: 92px;
+            left: 25vw;
         }
 
         &__star-4{
-            left: 304px;
+            left: 81vw;
             top: 580px;
             width: 39px;
             height: 41px;
         }
 
         &__star-5{
-            left: 273px;
+            left: 73vw;
             top: 557px;
             width: 18px;
         }
@@ -113,31 +110,27 @@
         font-weight: 700;
         line-height: 49px;
         text-align: left;
+        padding-bottom: 48px;
     }
 }
 
 .game-card{
-
+    gap: 24px;
     &__name{
         padding: 29px 29px 48px 29px;
-        max-width: 285px;
+        width: auto;
     }
 
     &__heading{
-        color: rgb(32, 32, 39);
         font-size: 32px;
-        font-weight: 700;
         line-height: 39px;
-        text-align: left;
         padding-bottom: 16px;
     }
 
     &__text{
         color: rgb(0, 0, 0);
         font-size: 16px;
-        font-weight: 400;
         line-height: 20px;
-        text-align: left;
         padding-bottom: 48px;
     }
 
@@ -149,7 +142,7 @@
         text-align: center;
         border-radius: 60px;
         background: rgb(32, 32, 39);
-        padding: 16px 110.5px;
+        padding: 16px 41%;
     }
 
     &__info{
@@ -171,7 +164,7 @@
         font-weight: 600;
         line-height: 141.69%;
         text-align: center;
-        padding: 16px 110.5px;
+        padding: 16px 41%;
         background: rgb(32, 32, 39);
         transition: none;
     }
