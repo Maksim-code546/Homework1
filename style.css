@@ -302,6 +302,7 @@ a {
   background: rgb(32, 32, 39);
   padding-top: 46px;
   padding-bottom: 144px;
+  overflow: hidden;
 }
 .mini-game__heading {
   color: rgb(255, 255, 255);
@@ -309,7 +310,7 @@ a {
   font-weight: 700;
   line-height: 78px;
   text-align: left;
-  padding-bottom: 72px;
+  padding-bottom: 48px;
 }
 .mini-game__star1 {
   position: absolute;
@@ -350,7 +351,7 @@ a {
   width: 100%;
 }
 .game-card__name {
-  width: 100%;
+  width: 505px;
   padding: 48px;
 }
 .game-card__heading {
@@ -411,7 +412,7 @@ a {
   text-align: center;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 451px) {
   .top-text {
     padding-top: 147px;
     padding-bottom: 182px;
@@ -421,16 +422,13 @@ a {
     align-items: center;
   }
   .top-text__heading {
-    color: rgb(32, 32, 39);
     font-size: 40px;
-    font-weight: 700;
     line-height: 49px;
     text-align: center;
+    width: 96%;
   }
   .top-text__text {
-    color: rgb(32, 32, 39);
     font-size: 16px;
-    font-weight: 400;
     line-height: 20px;
     text-align: center;
     max-width: 296px;
@@ -453,27 +451,27 @@ a {
   }
   .top__BigStar {
     width: 223.52px;
-    left: 232.81px;
+    left: 63vw;
     top: -84.43px;
   }
   .top__star-2 {
     width: 35px;
     top: 97px;
-    left: 38px;
+    left: 10vw;
   }
   .top__star-3 {
     width: 21px;
     top: 64px;
-    left: 92px;
+    left: 25vw;
   }
   .top__star-4 {
-    left: 304px;
+    left: 81vw;
     top: 580px;
     width: 39px;
     height: 41px;
   }
   .top__star-5 {
-    left: 273px;
+    left: 73vw;
     top: 557px;
     width: 18px;
   }
@@ -508,25 +506,24 @@ a {
     font-weight: 700;
     line-height: 49px;
     text-align: left;
+    padding-bottom: 48px;
+  }
+  .game-card {
+    gap: 24px;
   }
   .game-card__name {
     padding: 29px 29px 48px 29px;
-    max-width: 285px;
+    width: auto;
   }
   .game-card__heading {
-    color: rgb(32, 32, 39);
     font-size: 32px;
-    font-weight: 700;
     line-height: 39px;
-    text-align: left;
     padding-bottom: 16px;
   }
   .game-card__text {
     color: rgb(0, 0, 0);
     font-size: 16px;
-    font-weight: 400;
     line-height: 20px;
-    text-align: left;
     padding-bottom: 48px;
   }
   .game-card__btn {
@@ -537,7 +534,7 @@ a {
     text-align: center;
     border-radius: 60px;
     background: rgb(32, 32, 39);
-    padding: 16px 110.5px;
+    padding: 16px 41%;
   }
   .game-card__info {
     flex-direction: column-reverse;
@@ -555,7 +552,7 @@ a {
     font-weight: 600;
     line-height: 141.69%;
     text-align: center;
-    padding: 16px 110.5px;
+    padding: 16px 41%;
     background: rgb(32, 32, 39);
     transition: none;
   }

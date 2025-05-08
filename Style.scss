@@ -301,6 +301,7 @@ a {
     background: rgb(32, 32, 39);
     padding-top: 46px;
     padding-bottom: 144px;
+    overflow: hidden;
     
     &__heading{
         color: rgb(255, 255, 255);
@@ -308,7 +309,7 @@ a {
         font-weight: 700;
         line-height: 78px;
         text-align: left;
-        padding-bottom: 72px;
+        padding-bottom: 48px;
     }
 
     &__star1{
@@ -354,7 +355,7 @@ a {
     }
 
     &__name{
-        width: 100%;
+        width: 505px;
         padding: 48px;
     }
 
