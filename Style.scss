@@ -89,6 +89,7 @@ a {
 .top-text{
     padding-top: 196px;
     padding-bottom: 246px;
+
 }
 
 .top-text__heading{
@@ -286,7 +287,7 @@ a {
 
 .card__link{
     display: inline-block;
-    width: 378px;
+    width: auto;
     height: 100%;
     color: inherit;
 }
@@ -402,7 +403,7 @@ a {
     }
 
     &__img{
-        max-width: 600px;
+        width: auto;
         height: 500px;
     }
 }
