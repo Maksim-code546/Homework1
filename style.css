@@ -750,6 +750,152 @@ a {
     transition: none;
   }
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .center {
+    padding-right: calc(50% - 360.5px);
+    padding-left: calc(50% - 360.5px);
+  }
+  .top {
+    height: 700px;
+  }
+  .top__BigStar {
+    width: 223.52px;
+    left: 82vw;
+    top: -84.43px;
+  }
+  .top__star-2 {
+    width: 35px;
+    top: 97px;
+    left: 10vw;
+  }
+  .top__star-3 {
+    width: 21px;
+    top: 64px;
+    left: 25vw;
+  }
+  .top__star-4 {
+    left: 87vw;
+    top: 580px;
+    width: 39px;
+    height: 41px;
+  }
+  .top__star-5 {
+    left: 80vw;
+    top: 557px;
+    width: 18px;
+  }
+  .top__ray-1 {
+    display: none;
+  }
+  .top-text {
+    padding-top: 196px;
+    padding-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .top-text__heading {
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    width: 94%;
+  }
+  .top-text__text {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    max-width: 296px;
+    padding-bottom: 36px;
+  }
+  .top-text__btn {
+    font-size: 16px;
+    padding: 16px 103.5px;
+  }
+  .top-text__btn_hover:hover {
+    background: rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    font-size: initial;
+  }
+  .line {
+    top: 651px;
+    width: 1717.4px;
+    height: 51.34px;
+    flex-wrap: nowrap;
+  }
+  .line__heading {
+    font-size: 16px;
+  }
+  .line__Star {
+    width: 19.34px;
+    height: 19.34px;
+    padding: 16px 27px;
+  }
+  .Games {
+    padding-top: 38px;
+  }
+  .Games__heading {
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .Games__img {
+    display: none;
+  }
+  .Games__decoration1 {
+    display: none;
+  }
+  .Games__decoration2 {
+    display: none;
+  }
+  .Games__description {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card {
+    padding-top: 48px;
+    grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
+    gap: 24px;
+  }
+  .card__info {
+    width: 100%;
+  }
+  .card__heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .card__game--hover:hover {
+    transform: none;
+  }
+  .mini-game__heading {
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .game-card {
+    gap: 24px;
+  }
+  .game-card__info {
+    border-radius: 32px;
+  }
+  .game-card__heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .game-card__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .game-card__btn {
+    font-size: 16px;
+  }
+  .game-card__btn_hover:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(32, 32, 39);
+    font-size: 16px;
+  }
+  .game-card__img {
+    height: auto;
+  }
+}
 body {
   background-color: #f0f0f0;
 }
