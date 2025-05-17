@@ -587,3 +587,45 @@
         }
 
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+        .center {
+        padding-left: calc(50% - 480px);
+        padding-right: calc(50% - 480px);
+        }
+
+        .card{
+            grid-template-columns: repeat(auto-fit, minmax(298px, 1fr));
+        }
+
+        .card__info {
+            width: 100%;
+        }
+
+        .game-card__img {
+            height: auto;
+            width: 624px;
+        }
+        .game-card__heading {
+            line-height: 44px;
+        }
+
+        .game-card__text {
+            font-size: 22px;
+            line-height: 28px;
+        }
+
+        .game-card__btn_hover:hover{
+            background: rgb(32, 32, 39);
+            color: rgb(255, 255, 255);
+        }
+
+        .card__game--hover:hover {
+            transform: none;
+        }
+
+        .top-text__btn_hover:hover {
+            color: rgb(255, 255, 255);
+            background: rgb(32, 32, 39);
+        }
+}
