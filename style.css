@@ -287,7 +287,7 @@ a {
 
 .card__link {
   display: inline-block;
-  width: 378px;
+  width: auto;
   height: 100%;
   color: inherit;
 }
@@ -302,6 +302,7 @@ a {
   background: rgb(32, 32, 39);
   padding-top: 46px;
   padding-bottom: 144px;
+  overflow: hidden;
 }
 .mini-game__heading {
   color: rgb(255, 255, 255);
@@ -309,7 +310,7 @@ a {
   font-weight: 700;
   line-height: 78px;
   text-align: left;
-  padding-bottom: 72px;
+  padding-bottom: 48px;
 }
 .mini-game__star1 {
   position: absolute;
@@ -350,7 +351,7 @@ a {
   width: 100%;
 }
 .game-card__name {
-  width: 100%;
+  width: 505px;
   padding: 48px;
 }
 .game-card__heading {
@@ -392,7 +393,7 @@ a {
   transition: 0.3s ease;
 }
 .game-card__img {
-  max-width: 600px;
+  width: auto;
   height: 500px;
 }
 
@@ -411,26 +412,26 @@ a {
   text-align: center;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 493px) {
+  .top {
+    height: 700px;
+  }
   .top-text {
     padding-top: 147px;
-    padding-bottom: 182px;
+    padding-bottom: 180px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
   }
   .top-text__heading {
-    color: rgb(32, 32, 39);
     font-size: 40px;
-    font-weight: 700;
     line-height: 49px;
     text-align: center;
+    width: 96%;
   }
   .top-text__text {
-    color: rgb(32, 32, 39);
     font-size: 16px;
-    font-weight: 400;
     line-height: 20px;
     text-align: center;
     max-width: 296px;
@@ -453,27 +454,27 @@ a {
   }
   .top__BigStar {
     width: 223.52px;
-    left: 232.81px;
+    left: 63vw;
     top: -84.43px;
   }
   .top__star-2 {
     width: 35px;
     top: 97px;
-    left: 38px;
+    left: 10vw;
   }
   .top__star-3 {
     width: 21px;
     top: 64px;
-    left: 92px;
+    left: 25vw;
   }
   .top__star-4 {
-    left: 304px;
+    left: 81vw;
     top: 580px;
     width: 39px;
     height: 41px;
   }
   .top__star-5 {
-    left: 273px;
+    left: 73vw;
     top: 557px;
     width: 18px;
   }
@@ -508,25 +509,24 @@ a {
     font-weight: 700;
     line-height: 49px;
     text-align: left;
+    padding-bottom: 48px;
+  }
+  .game-card {
+    gap: 24px;
   }
   .game-card__name {
     padding: 29px 29px 48px 29px;
-    max-width: 285px;
+    width: auto;
   }
   .game-card__heading {
-    color: rgb(32, 32, 39);
     font-size: 32px;
-    font-weight: 700;
     line-height: 39px;
-    text-align: left;
     padding-bottom: 16px;
   }
   .game-card__text {
     color: rgb(0, 0, 0);
     font-size: 16px;
-    font-weight: 400;
     line-height: 20px;
-    text-align: left;
     padding-bottom: 48px;
   }
   .game-card__btn {
@@ -537,7 +537,7 @@ a {
     text-align: center;
     border-radius: 60px;
     background: rgb(32, 32, 39);
-    padding: 16px 110.5px;
+    padding: 16px 38%;
   }
   .game-card__info {
     flex-direction: column-reverse;
@@ -555,7 +555,7 @@ a {
     font-weight: 600;
     line-height: 141.69%;
     text-align: center;
-    padding: 16px 110.5px;
+    padding: 16px 41%;
     background: rgb(32, 32, 39);
     transition: none;
   }
@@ -569,4 +569,414 @@ a {
     line-height: 20px;
     text-align: center;
   }
+}
+@media (min-width: 375px) and (max-width: 493px) {
+  .center {
+    padding-right: calc(50% - 171.5px);
+    padding-left: calc(50% - 171.5px);
+  }
+}
+@media (min-width: 493px) and (max-width: 768px) {
+  .center {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .top {
+    height: 700px;
+  }
+  .top__BigStar {
+    width: 223.52px;
+    left: 63vw;
+    top: -84.43px;
+  }
+  .top__star-2 {
+    width: 35px;
+    top: 97px;
+    left: 10vw;
+  }
+  .top__star-3 {
+    width: 21px;
+    top: 64px;
+    left: 25vw;
+  }
+  .top__star-4 {
+    left: 81vw;
+    top: 580px;
+    width: 39px;
+    height: 41px;
+  }
+  .top__star-5 {
+    left: 73vw;
+    top: 557px;
+    width: 18px;
+  }
+  .top-text {
+    padding-top: 196px;
+    padding-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .top-text__heading {
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    width: 94%;
+  }
+  .top-text__text {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    max-width: 296px;
+    padding-bottom: 36px;
+  }
+  .top-text__btn {
+    font-size: 16px;
+    padding: 16px 103.5px;
+  }
+  .line {
+    top: 651px;
+    width: 1717.4px;
+    height: 51.34px;
+    flex-wrap: nowrap;
+  }
+  .line__heading {
+    font-size: 16px;
+  }
+  .line__Star {
+    width: 19.34px;
+    height: 19.34px;
+    padding: 16px 27px;
+  }
+  .Games {
+    padding-top: 38px;
+  }
+  .Games__heading {
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .Games__decoration1 {
+    display: none;
+  }
+  .Games__description {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(202px, 1fr));
+    gap: 24px;
+    padding-top: 48px;
+  }
+  .card__heading {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card__info {
+    width: 100%;
+    border-radius: 22px;
+  }
+  .card__number {
+    font-size: 10px;
+  }
+  .card__name {
+    padding: 24px 24px 26px 24px;
+  }
+  .mini-game {
+    overflow: hidden;
+    padding-top: 36px;
+    padding-bottom: 48.88px;
+  }
+  .mini-game__heading {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    text-align: left;
+    padding-bottom: 48px;
+  }
+  .game-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(202px, 1fr));
+    gap: 24px;
+  }
+  .game-card__name {
+    padding: 29px 16px 35px 16px;
+    width: 171px;
+  }
+  .game-card__heading {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 16px;
+    height: 76px;
+  }
+  .game-card__text {
+    font-size: 12px;
+    line-height: 14px;
+    padding-bottom: 34px;
+  }
+  .game-card__btn {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    text-align: center;
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    padding: 16px 20%;
+  }
+  .game-card__info {
+    border-radius: 24px;
+    flex-direction: column-reverse;
+  }
+  .game-card__info_justify {
+    justify-content: flex-end;
+  }
+  .game-card__info_flex {
+    flex-direction: column;
+  }
+  .game-card__img {
+    height: auto;
+  }
+  .game-card__btn_hover:hover {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    text-align: center;
+    padding: 16px 41%;
+    background: rgb(32, 32, 39);
+    transition: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .center {
+    padding-right: calc(50% - 360.5px);
+    padding-left: calc(50% - 360.5px);
+  }
+  .top {
+    height: 700px;
+  }
+  .top__BigStar {
+    width: 223.52px;
+    left: 82vw;
+    top: -84.43px;
+  }
+  .top__star-2 {
+    width: 35px;
+    top: 97px;
+    left: 10vw;
+  }
+  .top__star-3 {
+    width: 21px;
+    top: 64px;
+    left: 25vw;
+  }
+  .top__star-4 {
+    left: 87vw;
+    top: 580px;
+    width: 39px;
+    height: 41px;
+  }
+  .top__star-5 {
+    left: 80vw;
+    top: 557px;
+    width: 18px;
+  }
+  .top__ray-1 {
+    display: none;
+  }
+  .top-text {
+    padding-top: 196px;
+    padding-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .top-text__heading {
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    width: 94%;
+  }
+  .top-text__text {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    max-width: 296px;
+    padding-bottom: 36px;
+  }
+  .top-text__btn {
+    font-size: 16px;
+    padding: 16px 103.5px;
+  }
+  .top-text__btn_hover:hover {
+    background: rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    font-size: initial;
+  }
+  .line {
+    top: 651px;
+    width: 1717.4px;
+    height: 51.34px;
+    flex-wrap: nowrap;
+  }
+  .line__heading {
+    font-size: 16px;
+  }
+  .line__Star {
+    width: 19.34px;
+    height: 19.34px;
+    padding: 16px 27px;
+  }
+  .Games {
+    padding-top: 38px;
+  }
+  .Games__heading {
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .Games__img {
+    display: none;
+  }
+  .Games__decoration1 {
+    display: none;
+  }
+  .Games__decoration2 {
+    display: none;
+  }
+  .Games__description {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card {
+    padding-top: 48px;
+    grid-template-columns: repeat(auto-fit, minmax(348px, 1fr));
+    gap: 24px;
+  }
+  .card__info {
+    width: 100%;
+  }
+  .card__heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .card__game--hover:hover {
+    transform: none;
+  }
+  .mini-game__heading {
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .game-card {
+    gap: 24px;
+  }
+  .game-card__info {
+    border-radius: 32px;
+  }
+  .game-card__heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .game-card__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .game-card__btn {
+    font-size: 16px;
+  }
+  .game-card__btn_hover:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(32, 32, 39);
+    font-size: 16px;
+  }
+  .game-card__img {
+    height: auto;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .center {
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+  .card {
+    grid-template-columns: repeat(auto-fit, minmax(298px, 1fr));
+  }
+  .card__info {
+    width: 100%;
+  }
+  .game-card__img {
+    height: auto;
+    width: 624px;
+  }
+  .game-card__heading {
+    line-height: 44px;
+  }
+  .game-card__text {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .game-card__btn_hover:hover {
+    background: rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+  }
+  .card__game--hover:hover {
+    transform: none;
+  }
+  .top-text__btn_hover:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(32, 32, 39);
+  }
+}
+body {
+  background-color: #f0f0f0;
+}
+
+.game-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.input-group {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  width: 100px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+  min-height: 27px;
 }/*# sourceMappingURL=Style.css.map */
