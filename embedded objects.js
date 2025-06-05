@@ -60,3 +60,11 @@ function generateRandomArray(n) {
 }
 
 console.log(generateRandomArray(10));
+
+//task7
+
+function getRandomInRange(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+console.log(getRandomInRange(5, 10));
