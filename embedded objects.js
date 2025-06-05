@@ -44,3 +44,19 @@ function printRandomNumber() {
 }
 
 printRandomNumber();
+
+//task6
+
+function generateRandomArray(n) {
+  const length = Math.floor(n / 2);
+  const result = [];
+  
+  for (let i = 0; i < length; i++) {
+    const randomNumber = Math.floor(Math.random() * n);
+    result.push(randomNumber);
+  }
+  
+  return result;
+}
+
+console.log(generateRandomArray(10));
