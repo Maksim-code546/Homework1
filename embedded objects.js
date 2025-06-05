@@ -35,3 +35,12 @@ const max = Math.max(...numbers);
 
 console.log(`${min}`);
 console.log(`${max}`);
+
+//task5
+
+function printRandomNumber() {
+  const randomNumber = Math.floor(Math.random() * 10) + 1;
+  console.log(randomNumber);
+}
+
+printRandomNumber();
