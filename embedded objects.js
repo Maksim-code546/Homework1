@@ -80,3 +80,14 @@ let myDate = new Date();
 let fullDate = "Сегодня: " + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()];
 
 console.log(fullDate);
+
+//task9
+
+let currentDate = new Date();
+
+const futureDate = new Date(currentDate);
+
+futureDate.setDate(futureDate.getDate() + 73);
+
+console.log('Текущая дата:', currentDate.toLocaleDateString());
+console.log('Дата через 73 дня:', futureDate.toLocaleDateString());
