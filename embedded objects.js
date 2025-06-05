@@ -25,3 +25,13 @@ let methodMath = 32.58884;
 console.log(Math.floor(methodMath));
 console.log(Math.ceil(methodMath));
 console.log(Math.round(methodMath));
+
+//task4
+
+const numbers = [52, 53, 49, 77, 21, 32];
+
+const min = Math.min(...numbers);
+const max = Math.max(...numbers);
+
+console.log(`${min}`);
+console.log(`${max}`);
