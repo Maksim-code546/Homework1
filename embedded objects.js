@@ -17,3 +17,11 @@ function filterStringsStartingWith(array, str) {
 const fruits = ['apple', 'Banana', 'grape', 'apricot', 'Pineapple'];
 const result = filterStringsStartingWith(fruits, 'ap');
 console.log(result);
+
+//task3
+
+let methodMath = 32.58884;
+
+console.log(Math.floor(methodMath));
+console.log(Math.ceil(methodMath));
+console.log(Math.round(methodMath));
