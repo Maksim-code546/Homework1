@@ -50,3 +50,13 @@ setTimeout(() => {
     clearInterval(interval);
     console.log("30 секунд прошло");
 }, 30000);
+
+///task4
+
+function delayForSecond(callback) {
+    setTimeout(callback, 1000);
+}
+
+delayForSecond(function () {
+   console.log('Привет, Глеб!');
+})
