@@ -39,3 +39,14 @@ const peopleTestTask2 = [
 ];
 
 console.log(filter(peopleTestTask2, isMale));
+
+//task3
+
+const interval = setInterval(() => {
+    console.log(new Date().toLocaleString());
+}, 3000);
+
+setTimeout(() => {
+    clearInterval(interval);
+    console.log("30 секунд прошло");
+}, 30000);
