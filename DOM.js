@@ -1,11 +1,18 @@
 //task1
 
-        const headingEl = document.querySelector('.heading');
-        const btnEl = document.querySelector('.btn');
-        
-        btnEl.addEventListener('click', () => {
-            headingEl.textContent = 'Привет мир!'
+        const topEl = document.querySelector('.top');
+        const btnTopEl = document.querySelector('.btn-top');
+
+        btnTopEl.addEventListener('click', function () {
+            topEl.classList.toggle('top_hidden');
+
+            if (topEl.classList.contains('top_hidden')) {
+                btnTopEl.textContent = 'Показать текст';
+            } else {
+                btnTopEl.textContent = 'Скрыть текст';
+            }
         })
+        
 
 //task2
 
@@ -14,4 +21,13 @@
 
         btnTextEl.addEventListener('click', () => {
             textEl.style.color = 'blue';
+        })
+
+//task3
+
+        const headingEl = document.querySelector('.heading');
+        const btnEl = document.querySelector('.btn');
+        
+        btnEl.addEventListener('click', () => {
+            headingEl.textContent = 'Привет мир!'
         })
