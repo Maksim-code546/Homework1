@@ -48,3 +48,16 @@
        descriptionsEl.forEach(element => {
         element.textContent = 'Новый текст';
        });
+
+//task6
+
+        const btnNewEl = document.querySelector('.btnNewElement');
+
+        btnNewEl.addEventListener('click', function(e) {
+
+            const newElement = document.createElement('p');
+            newElement.textContent = 'Новый элемент';
+            newElement.classList.add('new-paragraph');
+
+            document.body.appendChild(newElement);
+        } );
