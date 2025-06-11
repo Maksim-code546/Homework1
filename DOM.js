@@ -40,3 +40,11 @@
        descriptionEl.forEach(element => {
         element.textContent = 'Измененный текст';
        });
+
+//task5
+
+       const descriptionsEl = document.querySelectorAll('.descriptions');
+
+       descriptionsEl.forEach(element => {
+        element.textContent = 'Новый текст';
+       });
