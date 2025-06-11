@@ -31,3 +31,12 @@
         btnEl.addEventListener('click', () => {
             headingEl.textContent = 'Привет мир!'
         })
+
+
+//task4
+
+       const descriptionEl = document.querySelectorAll('.description');
+
+       descriptionEl.forEach(element => {
+        element.textContent = 'Измененный текст';
+       });
