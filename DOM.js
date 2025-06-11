@@ -61,3 +61,22 @@
 
             document.body.appendChild(newElement);
         } );
+
+//task7
+
+        const btnRemoveEl = document.querySelector('.btn-remove');
+
+        btnRemoveEl.addEventListener('click', function() {
+            const elements = document.querySelectorAll('p.descriptions');
+            
+            if(elements.length > 0) {
+                elements[0].remove();
+                
+                const remainingElements = document.querySelectorAll('p.descriptions');
+                if(remainingElements.length === 0) {
+                    btnRemoveEl.textContent = 'Элементы закончились!';
+                    btnRemoveEl.disabled = true;
+                    console.log('Элементы удалены');
+                }
+            } 
+        });
