@@ -165,9 +165,18 @@ a {
 }
 .line__content {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   width: 100%;
+  white-space: nowrap;
+  animation: scroll 25s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(2.3%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .line__heading {
@@ -185,7 +194,7 @@ a {
 }
 
 .line__heading_indent {
-  padding-left: 49px;
+  padding-left: 6px;
 }
 
 .Games {
@@ -634,6 +643,12 @@ a {
   .top-text__btn {
     font-size: 16px;
     padding: 16px 103.5px;
+  }
+  .top-text__btn:hover {
+    padding: 16px 103.5px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background: rgb(32, 32, 39);
   }
   .line {
     top: 651px;
