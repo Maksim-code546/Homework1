@@ -264,6 +264,13 @@
             font-size: 16px;
             padding: 16px 103.5px;
         }
+
+        &__btn:hover{
+            padding: 16px 103.5px;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            background: rgb(32, 32, 39);
+        }
     }
 
         .line{
@@ -402,6 +409,16 @@
                 transition: none;
             }
         }
+}
+
+@media (max-width: 768px) {
+  .scroll-to-top {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
