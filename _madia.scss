@@ -411,6 +411,16 @@
         }
 }
 
+@media (max-width: 768px) {
+  .scroll-to-top {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
 @media (min-width: 769px) and (max-width: 1024px){
     .center{
         padding-right: calc(50% - 360.5px);
