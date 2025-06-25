@@ -13,7 +13,6 @@ scrollBtn.addEventListener('click', function(e) {
     });
 });
 
-// Показываем/скрываем кнопку при скролле
 window.addEventListener('scroll', function() {
   const scrollToTopBtn = document.querySelector('.scroll-to-top');
   if (window.pageYOffset > 300) {
@@ -23,7 +22,6 @@ window.addEventListener('scroll', function() {
   }
 });
 
-// Плавный скролл наверх
 document.querySelector('.scroll-to-top').addEventListener('click', function() {
   window.scrollTo({
     top: 0,
