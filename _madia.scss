@@ -605,7 +605,7 @@
 
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
         .center {
         padding-left: calc(50% - 480px);
         padding-right: calc(50% - 480px);
@@ -645,4 +645,129 @@
             color: rgb(255, 255, 255);
             background: rgb(32, 32, 39);
         }
+}
+
+@media (min-width: 1441px) and (max-width: 2560px){
+
+    .top{
+     &__BigStar {
+        left: 70.9dvw;
+     }
+     
+     &__ray-1{
+        left: 59.3dvw;
+     }
+
+     &__ray-2{
+        left: 73.1dvw;
+     }
+
+     &__ray-3{
+        left: 81.1dvw;
+     }
+
+     &__ray-4{
+        left: 82.4dvw;
+     }
+
+     &__ray-5{
+        left: 86.4dvw;
+     }
+
+     &__star-4{
+        left: 71.3dvw;
+     }
+
+     &__star-5{
+        left: 68.8dvw;
+     }
+}
+
+    .line{
+        width: 3475px;
+    }
+
+    .Games__img{
+        left: 67.7dvw;
+    }
+
+    .mini-game{
+    &__star1{
+        left: 88.6dvw;
+    }
+
+    &__star2{
+        left: 91.6dvw;
+    }
+
+    &__star3{
+        left: 91.5dvw;
+    }
+
+    &__star4{
+        left: 86.7dvw;
+    }
+}
+}
+
+@media (min-width: 2561px) and (max-width: 3440px){
+    .line{
+        width: 3440px;
+    }
+
+    .top{
+        &__BigStar {
+        left: 70.9dvw;
+     }
+
+     &__ray-1{
+        left: 64.3dvw;
+     }
+
+     &__ray-2{
+        left: 72.1dvw;
+     }
+
+     &__ray-3{
+        left: 78.1dvw;
+     }
+
+     &__ray-4{
+        left: 79.4dvw;
+     }
+
+     &__ray-5{
+        left: 83.4dvw;
+     }
+
+     &__star-4{
+        left: 71.3dvw;
+     }
+
+     &__star-5{
+        left: 68.8dvw;
+     }
+    }
+
+    .Games__img{
+        left: 67.7dvw;
+    }
+
+    .mini-game{
+    &__star1{
+        left: 88.6dvw;
+    }
+
+    &__star2{
+        left: 91.6dvw;
+    }
+
+    &__star3{
+        left: 91.5dvw;
+    }
+
+    &__star4{
+        left: 86.7dvw;
+    }
+}
 }
